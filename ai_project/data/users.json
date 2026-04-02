@@ -1,0 +1,16 @@
+{
+    "users": [
+      {
+        "user_id": "user_A",
+        "teach_subjects": ["piano"],
+        "learn_subjects": ["coding", "basketball"],
+        "level": "intermediate"
+      },
+      {
+        "user_id": "user_B",
+        "teach_subjects": ["coding", "clarinet"],
+        "learn_subjects": ["piano"],
+        "level": "beginner"
+      }
+    ]
+  }
