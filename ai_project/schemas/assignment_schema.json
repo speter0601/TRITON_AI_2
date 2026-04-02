@@ -1,0 +1,33 @@
+{
+  "type": "object",
+  "properties": {
+    "assignments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "assigned_by": { "type": "string" },
+          "assigned_to": { "type": "string" },
+          "subject": { "type": "string" },
+          "task_name": { "type": "string" },
+          "task_info": { "type": "string" },
+          "due_date_text": { "type": ["string", "null"] },
+          "difficulty": {
+            "type": "string",
+            "enum": ["easy", "medium", "hard"]
+          }
+        },
+        "required": [
+          "assigned_by",
+          "assigned_to",
+          "subject",
+          "task_name",
+          "task_info",
+          "due_date_text",
+          "difficulty"
+        ]
+      }
+    }
+  },
+  "required": ["assignments"]
+}
